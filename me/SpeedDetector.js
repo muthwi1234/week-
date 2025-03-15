@@ -19,3 +19,28 @@ if (speed < 70) {
 }
 
 
+function rahma (height) {
+
+    if (height < 5) {
+        console.log("You are short");
+    } else {
+        console.log("You are tall");
+    }
+    }
+    rahma(10); 
+
+function subira (speed) {
+
+    if (speed < 70) {
+        console.log("Ok");
+    } else {
+        const demeritPoints = Math.floor((speed - 70) / 5);
+    
+        if (demeritPoints > 12) {
+          console.log("License suspended");
+        } else {
+          console.log(`Points: ${demeritPoints}`);
+        }
+      }
+    }
+    subira(80); 
